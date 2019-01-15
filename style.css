@@ -1,14 +1,14 @@
-body {}
 
+/* Makes progress bar's say under picture */
 .progress {
   margin-left: 25px;
   padding: 0;
 }
-
+/* Fixes odd width */
 .row {
   width: 98%;
 }
-
+/* Center text on picture */
 .centered {
   position: absolute;
   top: 50%;
@@ -34,13 +34,5 @@ body {}
     top: 20%;
     font-size: 70%;
   }
-
-  #progressbadid {
-    margin-left: -50px;
-    margin-right: 5%;
-  }
-
-  body {
-    margin-left: 10px;
-  }
+  
 }
